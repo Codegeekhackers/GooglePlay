@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="4dp"
+              android:padding="8dp">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+
+		<ImageView
+			android:id="@+id/iv_app_icon"
+			android:src="@mipmap/ic_feedback"
+			android:layout_width="55dp"
+			android:layout_height="55dp"/>
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			<TextView
+				android:id="@+id/tv_app_name"
+				android:text="煎饼果子来一套"
+				android:textColor="@color/txt_title"
+				android:textSize="16sp"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"/>
+
+			<RatingBar
+				android:id="@+id/rb_app_stars"
+				android:layout_width="wrap_content"
+				android:layout_height="18dp"
+				android:progressDrawable="@drawable/ratingbar_progress"
+				style="@android:style/Widget.RatingBar"
+				android:layout_marginBottom="2dp"
+				android:layout_marginTop="2dp"
+				android:isIndicator="true"
+				/>
+
+			<TextView
+				android:id="@+id/tv_app_size"
+				android:text="3.7MB"
+				android:textSize="12sp"
+				android:textColor="@color/txt_small"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<View
+		android:layout_marginTop="8dp"
+		android:background="@color/item_divider"
+		android:layout_width="match_parent"
+		android:layout_height="1dp"/>
+
+	<TextView
+		android:id="@+id/tv_app_des"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:maxLines="1"
+		android:textColor="@color/txt_small"
+		android:textSize="14sp"
+		android:text="为了部落，为了联盟，拼了，为了部落，为了联盟，拼了为了部落，为了联盟，拼了"/>
+
+	<View
+		android:layout_marginTop="8dp"
+		android:background="@color/item_divider"
+		android:layout_width="match_parent"
+		android:layout_height="1dp"/>
+
+</LinearLayout>

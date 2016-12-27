@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:fillViewport="true">
+	<LinearLayout
+		android:id="@+id/photo_layout"
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+		
+		<LinearLayout
+
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="55dp"
+			android:paddingLeft="10dp"
+			android:paddingRight="10dp" >
+
+			<ImageView
+				android:id="@+id/iv_user_photo"
+				android:background="@mipmap/photo_over"
+				android:src="@mipmap/bg_photo"
+				android:layout_width="55dp"
+				android:layout_height="55dp"/>
+
+			<LinearLayout
+				android:layout_marginTop="5dp"
+				android:orientation="vertical"
+				android:layout_marginLeft="20dp"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				>
+				<TextView
+					android:id="@+id/tv_user_name"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+				    android:text="未知"
+				    android:textSize="18sp"
+				/>
+				<TextView
+					android:id="@+id/tv_user_email"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:text="unknown@gmail.com"
+					android:textSize="18sp"
+				/>
+			</LinearLayout>
+		</LinearLayout>
+
+		<View
+			android:layout_width="wrap_content"
+			android:layout_height="1dp"
+			android:background="#1a000000" />
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:gravity="center_vertical"
+			android:layout_height="40dp"
+			android:paddingLeft="20dp"
+		>
+			<ImageView
+				android:id="@+id/iv_home"
+				android:src="@mipmap/ic_home"
+				android:layout_width="30dp"
+				android:layout_height="30dp"/>
+			<TextView
+				android:id="@+id/tv_home"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="15dp"
+				android:text="首页"
+				android:textColor="#9b9b9b"
+				android:textSize="18dp" />
+		</LinearLayout>
+
+		<View
+			android:layout_width="wrap_content"
+			android:layout_height="1dp"
+			android:background="#1a000000" />
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:gravity="center_vertical"
+			android:layout_height="40dp"
+			android:paddingLeft="20dp"
+		>
+			<ImageView
+				android:id="@+id/iv_setting"
+				android:src="@mipmap/ic_setting"
+				android:layout_width="30dp"
+				android:layout_height="30dp"/>
+			<TextView
+				android:id="@+id/tv_setting"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="15dp"
+				android:text="设置"
+				android:textColor="#9b9b9b"
+				android:textSize="18dp" />
+		</LinearLayout>
+
+		<View
+			android:layout_width="wrap_content"
+			android:layout_height="1dp"
+			android:background="#1a000000" />
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:gravity="center_vertical"
+			android:layout_height="40dp"
+			android:paddingLeft="20dp"
+		>
+			<ImageView
+				android:id="@+id/iv_theme"
+				android:src="@mipmap/ic_theme"
+				android:layout_width="30dp"
+				android:layout_height="30dp"/>
+			<TextView
+				android:id="@+id/tv_theme"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="15dp"
+				android:text="主题"
+				android:textColor="#9b9b9b"
+				android:textSize="18dp" />
+		</LinearLayout>
+		<View
+			android:layout_width="wrap_content"
+			android:layout_height="1dp"
+			android:background="#1a000000" />
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:gravity="center_vertical"
+			android:layout_height="40dp"
+			android:paddingLeft="20dp"
+		>
+			<ImageView
+				android:id="@+id/iv_scans"
+				android:src="@mipmap/ic_scans"
+				android:layout_width="30dp"
+				android:layout_height="30dp"/>
+			<TextView
+				android:id="@+id/tv_scans"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="15dp"
+				android:text="安装包管理"
+				android:textColor="#9b9b9b"
+				android:textSize="18dp" />
+		</LinearLayout>
+		<View
+			android:layout_width="wrap_content"
+			android:layout_height="1dp"
+			android:background="#1a000000" />
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:gravity="center_vertical"
+			android:layout_height="40dp"
+			android:paddingLeft="20dp"
+		>
+			<ImageView
+				android:id="@+id/iv_feedback"
+				android:src="@mipmap/ic_feedback"
+				android:layout_width="30dp"
+				android:layout_height="30dp"/>
+			<TextView
+				android:id="@+id/tv_feedback"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="15dp"
+				android:text="反馈"
+				android:textColor="#9b9b9b"
+				android:textSize="18dp" />
+		</LinearLayout>
+		<View
+			android:layout_width="wrap_content"
+			android:layout_height="1dp"
+			android:background="#1a000000" />
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:gravity="center_vertical"
+			android:layout_height="40dp"
+			android:paddingLeft="20dp"
+		>
+			<ImageView
+				android:id="@+id/iv_updates"
+				android:src="@mipmap/ic_updates"
+				android:layout_width="30dp"
+				android:layout_height="30dp"/>
+			<TextView
+				android:id="@+id/tv_updates"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="15dp"
+				android:text="检查更新"
+				android:textColor="#9b9b9b"
+				android:textSize="18dp" />
+		</LinearLayout>
+
+		<View
+		android:layout_width="wrap_content"
+		android:layout_height="1dp"
+		android:background="#1a000000" />
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:gravity="center_vertical"
+			android:layout_height="40dp"
+			android:paddingLeft="20dp"
+		>
+			<ImageView
+				android:id="@+id/iv_about"
+				android:src="@mipmap/ic_about"
+				android:layout_width="30dp"
+				android:layout_height="30dp"/>
+			<TextView
+				android:id="@+id/tv_about"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="15dp"
+				android:text="关于"
+				android:textColor="#9b9b9b"
+				android:textSize="18dp" />
+		</LinearLayout>
+		<View
+			android:layout_width="wrap_content"
+			android:layout_height="1dp"
+			android:background="#1a000000" />
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:gravity="center_vertical"
+			android:layout_height="40dp"
+			android:paddingLeft="20dp"
+		>
+			<ImageView
+				android:id="@+id/iv_exit"
+				android:src="@mipmap/ic_exit"
+				android:layout_width="30dp"
+				android:layout_height="30dp"/>
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="15dp"
+				android:text="退出"
+				android:textColor="#9b9b9b"
+				android:textSize="18dp" />
+		</LinearLayout>
+
+
+
+	</LinearLayout>
+
+</ScrollView>
